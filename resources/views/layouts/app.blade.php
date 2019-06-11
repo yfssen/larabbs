@@ -14,7 +14,7 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/5.8.2/css/all.css" rel="stylesheet">
-
+    @yield('styles')
 </head>
 
 <body>
@@ -35,6 +35,7 @@
 
 <!-- Scripts -->
 <script src="{{ mix('js/app.js') }}"></script>
+@yield('scripts')
 </body>
 
 </html>
